@@ -1,0 +1,10 @@
+s=input("string")
+s1="ly"
+s2="ing"
+if(s.endswith("ing")):
+	s+=s1
+	print(s)
+else:
+	c=s[-1]
+	s+=s2
+	print(s)
